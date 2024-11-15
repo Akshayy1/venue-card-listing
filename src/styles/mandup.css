@@ -1,0 +1,393 @@
+/* Logo Text */
+.navbar-logo-text {
+    color: #d1005e;
+    font-weight: bold;
+  }
+  
+  /* Centered Links */
+  .navbar .nav-link {
+    color: #333;
+    font-weight: 500;
+    margin: 0 10px;
+  }
+  
+  /* Sign Up Button */
+  .navbar .signup-button {
+    background-color: #d1005e;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 8px 16px;
+  }
+  
+  .navbar .signup-button:hover {
+    background-color: #b00052;
+  }
+  
+  .signupBtn{
+    border: none !important;
+  }
+
+  .mainContainer{
+    background-color: #fffafd;
+  }
+
+  .rounded-dropdown{
+    .dropdown-toggle{
+        background-color: white !important;
+        border: none;
+        color: black !important;
+    }
+  }
+
+  .dropDownBtn{
+   border-radius: 24px;
+  }
+
+  .venuesAll{
+    font-size: 24px;
+  }
+
+  .filterOption{
+    width: 23%;
+    box-shadow: 0px 0px 6px gray;
+    background-color: white;
+    border-radius: 24px;
+    height: 102vh;
+  }
+
+  .filterResult{
+    font-size: 24px;
+    font-weight: 500;
+    color: #d6207f;
+  }
+
+  .venueCard{
+    width: 77%;
+    height: 103vh;
+    overflow-y: scroll;
+    padding-left: 10px;
+  }
+
+  .venueImage{
+    width: 100%;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+  }
+
+  .venueContainer{
+    width: 33.33%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .venuesList{
+    box-shadow: 0px 0px 6px gray;
+    border-radius: 22px;
+  }
+
+  .venueName{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .venueRating{
+    font-weight: 600;
+  }
+
+  .venueLocation{
+    font-size: 13px;
+    color: gray;
+  }
+
+  .venuePriceRange{
+    font-weight: 600;
+  }
+
+.perPlate{
+    font-weight: 300 !important;
+    color: gray;
+}
+
+.custom-button {
+    background-color: #e6007e !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    border: none !important;
+    transition: background-color 0.3s ease !important;
+    width: 100%;
+  }
+  
+  .custom-button:hover {
+    background-color: #cc006d !important;
+  }
+
+  .viewDetailsBtn{
+    width: 30%;
+    p{
+        font-size: 10px;
+    }
+  }
+  
+  .venueDetails{
+    width: 70%;
+  }
+
+  .detailsItem{
+    width: 30%;
+    border-radius: 8px;
+    p{
+        font-size: 12px;
+        background-color: #f5f5f5;
+    }
+    
+  }
+
+  .venueLocation{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .venueSearch{
+    border-radius: 6px;
+    p{
+      font-size: 14px;
+      color: gray;
+      padding: 3px 0px;
+    }
+  }
+
+  .searchLocation{
+   font-size: 11px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .searchBar{
+    background-color: #fcf2f7;
+    width: 30%;
+    padding: 2px;
+  }
+
+  .nonveg{
+    border: 1px solid;
+    width: 35%;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font-size: 12px;
+    }
+    img{
+     width: 15px;
+    }
+  }
+
+  .veg{
+    border: 1px solid;
+    width: 25%;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font-size: 12px;
+    }
+    img{
+      width: 15px;
+    }
+  }
+
+  .rangePrice{
+    line-height: 12px;
+  }
+
+  #customRange1 {
+  --bs-range-thumb-bg: #e6007e ; 
+  --bs-range-track-bg: #e6007e ;
+}
+
+#customRange1::-webkit-slider-thumb {
+  background-color: #e6007e ;
+}
+
+#customRange1::-moz-range-thumb {
+  background-color: #e6007e ;
+}
+
+/* Container styling */
+.rating-filter {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Title styling */
+.rating-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Star Styling */
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.fa-star {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.filled-star {
+  color: #ffd700; /* Gold color for filled stars */
+}
+.empty-star {
+  color: #e0e0e0; /* Light grey for unfilled stars */
+}
+
+/* Button Styling */
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.clear-btn {
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s;
+}
+.clear-btn:hover {
+  background-color: #ddd;
+}
+
+.apply-btn {
+  background-color: #e1006e;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s;
+}
+.apply-btn:hover {
+  background-color: #c7005f;
+}
+
+.clearAll{
+  border-radius: 30px !important;
+  background-color: rgb(225, 223, 223) !important;
+}
+
+.applyFilter{
+  background-color: #e6007e !important;
+  color: white !important;
+  border-radius: 30px !important;
+}
+
+.filterImg{
+  display: none;
+}
+
+.filterOptionResponsive{
+  display: none;
+}
+
+.venueCardContainer{
+  /* height: 74vh;
+  overflow-y: scroll;
+  padding-top: 2px; */
+}
+/* media query */
+
+@media screen and (min-width: 360px) and (max-width: 820px) { 
+  .filterOption{
+    display: none;
+  }
+  .filterImg{
+    width: 24px;
+    display: block;
+    height: 24px;
+    margin-top: 7px;
+    margin-right: 7px;
+  }
+  .filterOptionResponsive{
+    display: block;
+    box-shadow: 0px 0px 6px gray;
+    background-color: white;
+    border-radius: 24px;
+    height: 85vh;
+    overflow-y: scroll;
+  }
+
+  .venueCard{
+    padding-left: 0px;
+    width: 100% !important;
+  }
+
+  .venueContainer{
+    width: 33.33%;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  .viewDetailsBtn{
+    width: 25%;
+  }
+}
+
+
+.venueCard::-webkit-scrollbar {
+  display: none; 
+}
+
+.ant-slider-track{
+  background-color: #e6007e !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.venueContainer {
+  opacity: 0.5; /* Default state */
+  animation: fadeIn 0.8s ease-in-out forwards; /* Apply animation */
+}
+
+.venueContainer.delay-0 {
+  animation-delay: 0s;
+}
+
+.venueContainer.delay-1 {
+  animation-delay: 0.1s;
+}
+
+.venueContainer.delay-2 {
+  animation-delay: 0.2s;
+}
+
+.venueContainer.delay-3 {
+  animation-delay: 0.3s;
+}
+
+.searchBaar{
+  border: none;
+  outline: none !important;
+}
+/* Add more delays as needed */
